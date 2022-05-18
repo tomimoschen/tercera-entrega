@@ -1,0 +1,51 @@
+@import "../variables/variables.scss";
+@import "../sass2/mixins";
+
+.bg-container {
+    display: flex;
+    width: auto;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    .bg-img {
+        background:{ 
+        image: url(../assets/wp6_2.jpg);
+        size: cover;
+        }
+        transform: translateY(-8%);
+        filter: blur(2px);
+        height: 100vh;
+        width: 100vw;
+        background-position: center;
+        z-index: -1;
+    }
+    .main-logo {
+        position: absolute;
+        top: 25%;
+        .animate__animated animate__fadeInDown {
+            animation: fadeInDown;
+            animation-duration: 5s;
+        }
+    }
+}
+p {
+    margin-left: 10vh;
+}
+img {
+    margin-right: 10vh;
+}
+.p {
+    margin-top: 5vh;
+}
+.ult-noticias {
+    @include estilo-h1
+}
+
+.subtitulo {
+    font:{
+        family: $fuente;
+        weight: 700;
+    }
+    text-align: justify;
+    margin-top: 2vh;
+}

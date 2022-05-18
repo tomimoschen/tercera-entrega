@@ -1,0 +1,24 @@
+@import "../variables/variables.scss";
+
+$tarjetas: (
+    color: $rojo,
+    centro: $centrar,
+    borde: $borde-curvo
+);
+
+.cal-card1,
+.cal-card2,
+.cal-card3,
+.cal-card4,
+.cal-card5,
+.cal-card6,
+.cal-card7,
+.cal-card8,
+.cal-card9,
+.cal-card10,
+.cal-card11,
+.cal-card12{
+    background-color: map-get($tarjetas, color);
+    justify-content: map-get($tarjetas, centro);
+    border-radius: map-get($tarjetas, borde);
+}

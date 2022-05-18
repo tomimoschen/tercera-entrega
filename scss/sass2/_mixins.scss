@@ -1,0 +1,12 @@
+@import "../variables/variables.scss";
+
+@mixin estilo-h1{
+    text-align: center;
+    text-decoration: underline 1.5vh $rojo;
+    color: black;
+    font:{
+        family: $fuente;
+        size: 3.5em;
+        weight: bold;
+    }
+}

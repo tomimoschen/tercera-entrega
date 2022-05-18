@@ -1,0 +1,267 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap");
+.header-footer, .color-fondo-nav, .color-fondo {
+  background-color: crimson;
+  font-family: "Montserrat";
+  color: white; }
+
+.color-fondo-nav .hover:hover {
+  color: black;
+  transition: .2s; }
+
+.bg-container {
+  display: flex;
+  width: auto;
+  height: 100vh;
+  align-items: center;
+  justify-content: center; }
+  .bg-container .bg-img {
+    background-image: url(../assets/wp6_2.jpg);
+    background-size: cover;
+    transform: translateY(-8%);
+    filter: blur(2px);
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    z-index: -1; }
+  .bg-container .main-logo {
+    position: absolute;
+    top: 25%; }
+    .bg-container .main-logo .animate__animated animate__fadeInDown {
+      animation: fadeInDown;
+      animation-duration: 5s; }
+
+p {
+  margin-left: 10vh; }
+
+img {
+  margin-right: 10vh; }
+
+.p {
+  margin-top: 5vh; }
+
+.ult-noticias {
+  text-align: center;
+  text-decoration: underline 1.5vh crimson;
+  color: black;
+  font-family: "Montserrat";
+  font-size: 3.5em;
+  font-weight: bold; }
+
+.subtitulo {
+  font-family: "Montserrat";
+  font-weight: 700;
+  text-align: justify;
+  margin-top: 2vh; }
+
+.carta_container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px; }
+  .carta_container .carta {
+    background: crimson;
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+    margin: 20px;
+    background: crimson; }
+    .carta_container .carta:hover {
+      box-shadow: 1px 1px 3.7px rgba(225, 30, 30, 0.084), 2.4px 2.3px 8.8px rgba(225, 30, 30, 0.088), 4.5px 4.4px 16.5px rgba(225, 30, 30, 0.36), 8px 7.8px 29.5px rgba(255, 30, 30, 0.072), 15px 14.6px 55.1px rgba(255, 30, 30, 0.26), 36px 35px 132px rgba(225, 30, 30, 0.22);
+      transform: scale(103%);
+      transition: ease-in-out .2s; }
+    .carta_container .carta .carta-img {
+      background-color: chartreuse;
+      border-radius: 10px;
+      width: 23em;
+      height: 23em;
+      margin: 1em;
+      justify-content: center; }
+      .carta_container .carta .carta-img .carta-img-1 {
+        background-image: url(../assets/guenther-steiner-team-principa-1.jpg); }
+      .carta_container .carta .carta-img .carta-img-2 {
+        background-image: url(../assets/perfil-kevin-magnussen-2022-soymotor.png); }
+      .carta_container .carta .carta-img .carta-img-3 {
+        background-image: url(../assets/mick-schumacher-2021-soymotor.jpg); }
+    .carta_container .carta .carta-title {
+      color: white;
+      font-family: "Montserrat";
+      font-weight: bold;
+      font-size: 22px;
+      text-align: center;
+      margin-bottom: 20px; }
+    .carta_container .carta .carta-h5 {
+      color: white;
+      margin-left: 15px;
+      font-size: 1.125em;
+      font-weight: bold; }
+    .carta_container .carta .teamcarta-p {
+      margin: 10px;
+      font-size: 1em;
+      color: white;
+      height: auto;
+      width: auto; }
+
+.calendario-titulo {
+  margin: 5vh 0px;
+  width: 100%;
+  text-align: center;
+  text-decoration: underline 1.5vh crimson;
+  color: black;
+  font-family: "Montserrat";
+  font-size: 3.5em;
+  font-weight: bold; }
+
+.container-grid {
+  display: grid;
+  box-sizing: border-box;
+  width: 90%;
+  grid-template-areas: "card1 card2 card3 card4"
+ "card5 card6 card7 card8"
+ "card9 card10 card11 card12";
+  gap: 25px;
+  margin: auto;
+  justify-items: center; }
+  .container-grid .cal-card1 {
+    grid-area: card1; }
+  .container-grid .cal-card2 {
+    grid-area: card2; }
+  .container-grid .cal-card3 {
+    grid-area: card3; }
+  .container-grid .cal-card4 {
+    grid-area: card4; }
+  .container-grid .cal-card5 {
+    grid-area: card5; }
+  .container-grid .cal-card6 {
+    grid-area: card6; }
+  .container-grid .cal-card7 {
+    grid-area: card7; }
+  .container-grid .cal-card8 {
+    grid-area: card8; }
+  .container-grid .cal-card9 {
+    grid-area: card9; }
+  .container-grid .cal-card10 {
+    grid-area: card10; }
+  .container-grid .cal-card11 {
+    grid-area: card11; }
+  .container-grid .cal-card12 {
+    grid-area: card12; }
+  .container-grid .cal-card1,
+  .container-grid .cal-card2,
+  .container-grid .cal-card3,
+  .container-grid .cal-card4,
+  .container-grid .cal-card5,
+  .container-grid .cal-card6,
+  .container-grid .cal-card7,
+  .container-grid .cal-card8,
+  .container-grid .cal-card9,
+  .container-grid .cal-card10,
+  .container-grid .cal-card11,
+  .container-grid .cal-card12 {
+    justify-self: center;
+    display: flex;
+    flex-flow: wrap; }
+    .container-grid .cal-card1:hover,
+    .container-grid .cal-card2:hover,
+    .container-grid .cal-card3:hover,
+    .container-grid .cal-card4:hover,
+    .container-grid .cal-card5:hover,
+    .container-grid .cal-card6:hover,
+    .container-grid .cal-card7:hover,
+    .container-grid .cal-card8:hover,
+    .container-grid .cal-card9:hover,
+    .container-grid .cal-card10:hover,
+    .container-grid .cal-card11:hover,
+    .container-grid .cal-card12:hover {
+      transform: scale(103%);
+      transition: ease-in-out .2s;
+      box-shadow: 1px 1px 3.7px rgba(225, 30, 30, 0.084), 2.4px 2.3px 8.8px rgba(225, 30, 30, 0.088), 4.5px 4.4px 16.5px rgba(225, 30, 30, 0.36), 8px 7.8px 29.5px rgba(255, 30, 30, 0.072), 15px 14.6px 55.1px rgba(255, 30, 30, 0.26), 36px 35px 132px rgba(225, 30, 30, 0.22); }
+  .container-grid .calcard-img {
+    background-color: chartreuse;
+    background-size: cover;
+    width: 368px;
+    height: 368px;
+    margin: 20px; }
+    .container-grid .calcard-img .calcard-img-1 {
+      background-image: url(../assets/saudiarabiagp.jpg); }
+    .container-grid .calcard-img .calcard-img-2 {
+      background-image: url(../assets/melbournegp.jpg); }
+    .container-grid .calcard-img .calcard-img-3 {
+      background-image: url(../assets/imolagp.jpg); }
+  .container-grid .calcard-title {
+    color: #fafafa;
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+    width: 100%; }
+  .container-grid .calcard-subtitle {
+    color: #0f0f0f;
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 1.8em;
+    text-align: center;
+    width: 100%; }
+  .container-grid .card-p {
+    color: #fafafa;
+    font-size: 1em;
+    width: 90%;
+    height: fit-content;
+    margin: 5px;
+    padding: 5px;
+    text-align: justify;
+    justify-content: center; }
+
+.contenedor-iframe {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden; }
+  .contenedor-iframe iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+.header-footer, .color-fondo-nav, .color-fondo {
+  background-color: crimson;
+  font-family: "Montserrat";
+  color: white; }
+
+.color-fondo {
+  margin-top: 10vh; }
+
+.cal-card1,
+.cal-card2,
+.cal-card3,
+.cal-card4,
+.cal-card5,
+.cal-card6,
+.cal-card7,
+.cal-card8,
+.cal-card9,
+.cal-card10,
+.cal-card11,
+.cal-card12 {
+  background-color: crimson;
+  justify-content: center;
+  border-radius: 10px; }
+
+.header-footer, .color-fondo-nav, .color-fondo {
+  background-color: crimson;
+  font-family: "Montserrat";
+  color: white; }

@@ -1,0 +1,130 @@
+@import "../variables/variables.scss";
+@import "../sass2/mixins";
+
+.calendario-titulo{
+    margin: 5vh 0px;
+    width: 100%;
+    @include estilo-h1;
+}
+.container-grid {
+    display: grid;
+    box-sizing: border-box;
+    width: 90%;
+    grid-template-areas: "card1 card2 card3 card4"
+        "card5 card6 card7 card8"
+        "card9 card10 card11 card12";
+    gap: 25px;
+    margin: auto;
+    justify-items: center;
+        .cal-card1 {
+        grid-area: card1;
+    }
+        .cal-card2 {
+        grid-area: card2;
+    }
+        .cal-card3 {
+        grid-area: card3;
+    }
+        .cal-card4 {
+        grid-area: card4;
+    }
+        .cal-card5 {
+        grid-area: card5;
+    }
+        .cal-card6 {
+        grid-area: card6;
+    }
+        .cal-card7 {
+        grid-area: card7;
+    }
+        .cal-card8 {
+        grid-area: card8;
+    }
+        .cal-card9 {
+        grid-area: card9;
+    }
+        .cal-card10 {
+        grid-area: card10;
+    }
+        .cal-card11 {
+        grid-area: card11;
+    }
+        .cal-card12 {
+        grid-area: card12;
+    }
+    .cal-card1,
+    .cal-card2,
+    .cal-card3,
+    .cal-card4,
+    .cal-card5,
+    .cal-card6,
+    .cal-card7,
+    .cal-card8,
+    .cal-card9,
+    .cal-card10,
+    .cal-card11,
+    .cal-card12 {
+        justify-self: center;
+        display: flex;
+        flex-flow:wrap;
+        &:hover{
+            transform: scale(103%);
+            transition: ease-in-out .2s;
+            box-shadow:
+            1px 1px 3.7px rgba(225, 30, 30, 0.084),
+            2.4px 2.3px 8.8px rgba(225, 30, 30, 0.088),
+            4.5px 4.4px 16.5px rgba(225, 30, 30, 0.36),
+            8px 7.8px 29.5px rgba(255, 30, 30, 0.072),
+            15px 14.6px 55.1px rgba(255, 30, 30, 0.26),
+            36px 35px 132px rgba(225, 30, 30, 0.22);
+        }
+    }
+    .calcard-img {
+        background:{ 
+            color: chartreuse;
+            size: cover;
+        }
+        width: 368px;
+        height: 368px;
+        margin: 20px;
+        .calcard-img-1 {
+            background-image: url(../assets/saudiarabiagp.jpg);
+        }
+        .calcard-img-2 {
+            background-image: url(../assets/melbournegp.jpg);
+        }
+        .calcard-img-3 {
+            background-image: url(../assets/imolagp.jpg);
+        }
+}
+.calcard-title {
+    color: rgb(250, 250, 250);
+    font:{ 
+    family: $fuente;
+    weight: bold;
+    size: 2em;
+    }
+    text-align: center;
+    width: 100%;
+}
+.calcard-subtitle {
+    color: rgb(15, 15, 15);
+    font:{ 
+    family: $fuente;
+    weight: bold;
+    size: 1.8em;
+    }  
+    text-align: center;
+    width: 100%;
+}
+.card-p {
+    color: rgb(250, 250, 250);
+    font-size: 1em;
+    width: 90%;
+    height: fit-content;
+    margin: 5px;
+    padding: 5px;
+    text-align: justify;
+    justify-content: center;
+}
+}
